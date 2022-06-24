@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'RobotoMono Regular';
+  src: url(D:\dev\repos\portfolio\src\assets\fonts\RobotoMono-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url(D:\dev\repos\portfolio\src\assets\fonts\Montserrat-SemiBold.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url(D:\dev\repos\portfolio\src\assets\fonts\Montserrat-Bold.ttf);
+  font-style: normal;
+}
+
+a{
+  color: var(--gray-1);
+  text-decoration: none;
+}
+
+.App {
+  font-size: 10px;
+  font-family: 'RobotoMono Regular';
+  color: var(--gray-1);
+  background-color: var(--dark-bg);
+}
+
+:root{
+  --dark-bg: #262626;
+  --gray-1: #BCB4B4;
+  --deep-dark: #1E1E1E;
+  --gray-2: #363636;
+  --white : white;
+  --black: black;
+}

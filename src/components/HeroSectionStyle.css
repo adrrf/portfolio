@@ -1,0 +1,64 @@
+:root{
+    --dark-bg: #262626;
+    --gray-1: #BCB4B4;
+    --deep-dark: #1E1E1E;
+    --gray-2: #363636;
+    --white : white;
+    --black: black;
+    --dark-purple: #8959a8; 
+    --soft-purple: #b294bb;
+}
+
+.heroDiv {
+    height: 100vh;
+    min-height: 1000px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+
+}
+.heroHeading{ 
+    font-size: 2rem;
+    margin-bottom: -6rem;
+    position: relative;
+}
+.heroText{
+    max-width: 1000px;
+    margin-top: 8rem;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+
+}
+.heroThis{
+    margin-top: 4rem;
+}
+.heroName{
+    font-size: 5rem;
+    font-family: 'Montserrat Bold';
+    color: var(--white);
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .heroText{
+        font-size: 1.4rem;
+    }
+    .heroThis{
+        margin-top:rem;
+        font-size: 1.5rem;
+    }
+    .heroName{
+        font-size:4rem;
+    }
+    .heroText{
+
+    }
+}
