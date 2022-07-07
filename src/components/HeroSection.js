@@ -8,8 +8,8 @@ export default function HeroSection() {
         <div className='heroDiv'>
             <div className='container'>
                 <h1 className='heroHeading'>
-                    <span className='heroThis'></span>
-                    <span className='heroThis'></span>
+                    <span className='heroThisSecond'></span>
+                    <span className='heroThisSecond'></span>
                     <span className='heroThis'></span>
                     <span className='heroThis'>Hello World! This is</span>
                     <span className='heroName'>adrián romero</span>

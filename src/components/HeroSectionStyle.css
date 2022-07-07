@@ -18,8 +18,9 @@
     text-align: center;
     align-items: center;
     position: relative;
-
 }
+
+
 .heroHeading{ 
     font-size: 2rem;
     margin-bottom: -6rem;
@@ -31,7 +32,6 @@
     font-size: 2rem;
     line-height: 1.8rem;
     text-align: center;
-
 }
 .heroThis{
     margin-top: 4rem;
@@ -54,6 +54,9 @@ span {
     .heroThis{
         margin-top:rem;
         font-size: 1.5rem;
+    }
+    .heroThisSecond{
+        display: none;
     }
     .heroName{
         font-size:4rem;

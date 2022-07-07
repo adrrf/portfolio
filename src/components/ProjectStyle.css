@@ -1,0 +1,51 @@
+.container{}
+.projectTitle{
+    color: #BCB4B4;
+    font-size: 2.2rem;
+}
+
+.projectItem{
+    margin: 0 auto;
+    width: 81.55%;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid #363636;
+    margin-bottom: 1rem;
+}
+
+img{
+    height: 100%;
+}
+
+.projectInfo{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: #1E1E1E;
+    padding: 1rem;
+    border: 3px solid #363636;
+    border-radius: 12px;
+}
+
+.projectStatus{
+    font-size: 1.25rem;
+    font-family: 'RobotoMono Regular';
+}
+
+.projectDesc{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    font-family: 'RobotoMono Regular';
+}
+
+@media only screen and (max-width: 768px) {
+    .projectItem{
+        height: 300px;
+    }
+    .projectInfo{
+        margin: 0 auto;
+        width: 80%;
+    }
+}

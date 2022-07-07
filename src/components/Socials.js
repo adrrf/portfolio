@@ -3,7 +3,7 @@ import './SocialsStyle.css'
 
 export default function Socials() {
     return(
-        <div>
+        <div className='containerSocials'>
             <ul>
                 <li>
                 <h1>follow me on</h1>

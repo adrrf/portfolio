@@ -1,0 +1,30 @@
+:root{
+    --dark-bg: #262626;
+    --gray-1: #BCB4B4;
+    --deep-dark: #1E1E1E;
+    --gray-2: #363636;
+    --white : white;
+    --black: black;
+    --dark-purple: #8959a8; 
+    --soft-purple: #b294bb;
+}
+
+.divButtonOutlined{
+    text-align: center;
+    margin-top:2rem;
+}
+.buttonOutlined{
+    text-align: center;
+    font-size: 2.2rem;
+    background-color: var(--dark-bg);
+    padding: .7em 2em;
+    border-radius: 8px;
+    border: 2px solid var(--gray-1);
+    color: var(--gray-1);
+}
+
+@media only screen and (max-width: 768px) {
+    .buttonOutlined{
+        font-size: 1.8rem;
+    }
+}

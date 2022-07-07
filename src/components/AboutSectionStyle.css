@@ -1,0 +1,60 @@
+:root{
+    --dark-bg: #262626;
+    --gray-1: #BCB4B4;
+    --deep-dark: #1E1E1E;
+    --gray-2: #363636;
+    --white : white;
+    --black: black;
+    --dark-purple: #8959a8; 
+    --soft-purple: #b294bb;
+}
+
+img{
+    max-width: 500px;
+    border: 2px solid var(--soft-purple);
+}
+.sectionContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    margin-bottom: 10rem;
+
+}
+
+.sectionText{
+    text-align: center;
+}
+
+.sectionLeft, .sectionRight{
+    flex: 1;
+}
+
+
+.sectionButtons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1008px) {
+    .sectionContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    img{
+        max-width: 300px;
+        border: 2px solid var(--soft-purple);
+        margin-top: 2rem;
+    }
+    .sectionButtons{
+        gap: 1rem;
+        flex-direction: column;
+
+    }
+}

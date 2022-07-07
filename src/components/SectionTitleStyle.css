@@ -1,0 +1,49 @@
+.divSection{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.sectionLeft{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+p{
+    font-family: 'RobotoMono Regular';
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Montserrat Bold';
+    font-size: 5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+}
+.sectionText{
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: left;
+}
+.buttonGray{
+    text-align: left;
+    font-size: 2.2rem;
+    background-color: var(--gray-1);
+    padding: .7em 2em;
+    border-radius: 8px;
+    color: #BCB4B4;
+}
+@media only screen and (max-width: 768px) {
+    p{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+}
