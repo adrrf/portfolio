@@ -25,6 +25,7 @@ img{
 
 .sectionText{
     text-align: center;
+    margin-top: -3rem;
 }
 
 .sectionLeft, .sectionRight{
@@ -37,7 +38,6 @@ img{
     align-items: center;
     justify-content: flex-start;
     gap: 2rem;
-    margin-top: 2rem;
 }
 
 @media only screen and (max-width: 1008px) {
@@ -55,6 +55,9 @@ img{
     .sectionButtons{
         gap: 1rem;
         flex-direction: column;
-
+    }
+    .sectionText{
+        text-align: center;
+        margin-top: -1rem;
     }
 }

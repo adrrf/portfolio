@@ -14,10 +14,9 @@ export default function ProjectsSection() {
         <SectionTitle heading='projects' subheading='take a look at my recent works'/>
         <div className='allItems'>
             <Swiper
-                spaceBetween={30}
+                spaceBetween={20}
                 slidesPerView={1}
                 navigation
-
             >
                 {projects.map((project, index) => {
                     if(index >= 5) return;

@@ -12,7 +12,7 @@ export default function Project({
   return (
     <div className='container'>
         <div className='projectItem'>
-            <img src={img} alt= 'project image'></img>
+            <img className='projectImage' src={img} alt= 'project image'></img>
         </div>
         <div className='projectInfo'>
           <Link to='/projects'>
