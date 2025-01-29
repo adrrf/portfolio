@@ -159,6 +159,13 @@ declare module 'astro:content' {
   render(): Render[".md"];
 }>;
 "projects": {
+"cloudmedix.md": {
+	id: "cloudmedix.md";
+  slug: "cloudmedix";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "dummie.md": {
 	id: "dummie.md";
   slug: "dummie";
