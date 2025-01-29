@@ -55,9 +55,10 @@ const skills = await getCollection("skills");
             </h1>
         </div>
     </Container>
-    <div class="space-y-16">
+    <Container>
+    <div class="space-y-16 border-l-red-600">
         <section>
-            <article class="space-y-4">
+            <article class="space-y-4 mb-8">
                 <p class="animate font-sans">
                     I am a software engineer based in Seville, Spain. I am
                     passionate about technology, software development, and
@@ -88,7 +89,7 @@ const skills = await getCollection("skills");
                     </Link>
                 </p>
                 <p class="animate"></p>
-                <p class="animate">
+                <p class="animate space-x-2">
                     Main interests:
                     <p class="text-sm opacity-75 text-center animate">
                         Backend Development, DevOps, Quantum Computing, Cloud
@@ -245,4 +246,5 @@ const skills = await getCollection("skills");
             </section>
         </section>
     </div>
+    </Container>
 </PageLayout>
